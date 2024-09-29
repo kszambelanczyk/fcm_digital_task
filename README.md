@@ -1,21 +1,5 @@
-# FcmTask
+# FcmDigitalTask
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fcm_task` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:fcm_task, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/fcm_task>.
-
+I updated a little bit my previous solution.
+This time I used NimbleParser to parse segments of the reservation because I read recently about it and I wanted to try it.
+I added error handling when given input data is incorrect, assuming that all segments need to be parsed correctly for the reservation to be valid
