@@ -1,6 +1,6 @@
 # FcmDigitalTask
 
-I updated a little bit my previous solution.
+I updated my previous solution a little bit.
 
 This time I used NimbleParser to parse segments of the reservation
 because I read recently about it and I wanted to try it.
